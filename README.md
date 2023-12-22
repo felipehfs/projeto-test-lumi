@@ -45,3 +45,6 @@ O projeto é composto de 3 aplicações: Faturas, Scraper-lumi (API) e Scraper-l
 
 6. Podemos fazer o download com segurança das faturas pelo período pela tabela
 ![Pdfs](docs/img/Pdfs.png)
+
+O projeto possui alguns testes únitários presentes no vitest
+Link do figma como esboço do projeto: [url](https://www.figma.com/file/91pBQYxkQn7qbyq68znfDS/Untitled?type=design&node-id=0%3A1&mode=dev)
