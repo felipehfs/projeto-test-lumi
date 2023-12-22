@@ -1,35 +1,29 @@
-import { ApexOptions } from 'apexcharts';
-import { Container } from './ChartItem.styles'
+import { ApexOptions } from "apexcharts";
+import { Container } from "./ChartItem.styles";
 import Chart from "react-apexcharts";
 
-
 export type ChartItemProps = {
-    categories: string[]
-    series: ApexOptions["series"]
-}
+  categories: string[];
+  series: ApexOptions["series"];
+};
 
-function ChartItem({categories, series }: ChartItemProps) {
-
-    const data = {
+function ChartItem({ categories, series }: ChartItemProps) {
+  const data = {
     options: {
-        chart: {
-            id: "basic-bar"
-        },
-        xaxis: {
-            categories,
-        }
+      chart: {
+        id: "basic-bar",
+      },
+      xaxis: {
+        categories,
+      },
     },
     series,
-};
-    return (
-        <Container>
-            <Chart
-                options={data.options}
-                series={data.series}
-                type="bar"
-            />
-        </Container>
-    )
+  };
+  return (
+    <Container>
+      <Chart options={data.options} series={data.series} type="bar" />
+    </Container>
+  );
 }
 
-export default ChartItem
+export default ChartItem;

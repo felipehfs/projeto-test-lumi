@@ -1,5 +1,5 @@
-import { Container, Image, Title, Text} from './EmptyState.styles'
-import imgSrc from '../../assets/img/emptyState.png'
+import { Container, Image, Title, Text } from "./EmptyState.styles";
+import imgSrc from "../../assets/img/emptyState.png";
 
 function EmptyState() {
   return (
@@ -8,7 +8,7 @@ function EmptyState() {
       <Title>Nada Encontrado</Title>
       <Text>Ops! Algo deu errado, Tente novamente com um novo valor.</Text>
     </Container>
-  )
+  );
 }
 
-export default EmptyState
+export default EmptyState;

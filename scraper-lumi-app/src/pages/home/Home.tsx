@@ -1,4 +1,10 @@
-import { ChangeEvent, ChangeEventHandler, FormEvent, useEffect, useState } from "react";
+import {
+  ChangeEvent,
+  ChangeEventHandler,
+  FormEvent,
+  useEffect,
+  useState,
+} from "react";
 import { Container, Header, Search, Main, Section } from "./Home.styles";
 import Button from "../../components/Button/Button";
 import ChartItem, {
@@ -30,7 +36,7 @@ const headers = [
 ];
 
 function Home() {
-  const params = useParams<{id: string}>()
+  const params = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [invoices, setInvoices] = useState<Invoice[]>([]);
   const [clientNumber, setClientNumber] = useState(params.id || "");
@@ -49,7 +55,7 @@ function Home() {
       (item) =>
         item.energyEletric.price +
         item.energySceeIcms.price +
-        item.cityContribution
+        item.cityContribution,
     );
     const economyGD = data.map((item) => item.energyGdi.price);
 
@@ -74,7 +80,7 @@ function Home() {
   function updateConsumeStats(data: Invoice[]) {
     const energyReferencesDate = data.map((item) => item.referenceDate);
     const energyEletric = data.map(
-      (item) => item.energyEletric.kwh + item.energySceeIcms.kwh
+      (item) => item.energyEletric.kwh + item.energySceeIcms.kwh,
     );
     const energyGdi = data.map((item) => item.energyGdi.kwh);
 
@@ -104,23 +110,24 @@ function Home() {
     }
 
     if (params.id?.trim()) {
-      fetchApi()
+      fetchApi();
     }
   }, [params.id]);
 
-  const onChangeClientNumber: ChangeEventHandler<HTMLInputElement> = (event: ChangeEvent<HTMLInputElement>) => {
-    setClientNumber(event.target.value)
-  }
-
+  const onChangeClientNumber: ChangeEventHandler<HTMLInputElement> = (
+    event: ChangeEvent<HTMLInputElement>,
+  ) => {
+    setClientNumber(event.target.value);
+  };
 
   const handleSubmitSearchClient = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    navigate(`/${clientNumber}`)
-  }
+    event.preventDefault();
+    navigate(`/${clientNumber}`);
+  };
 
   const handleRedirectToInvoices = () => {
-    navigate(`/${clientNumber}/invoices`)
-  }
+    navigate(`/${clientNumber}/invoices`);
+  };
 
   return (
     <Container>
@@ -133,7 +140,9 @@ function Home() {
             label="Id do cliente"
             id="clientNumber"
           />
-          <Button type="submit"><FaSearch /> Pesquisar</Button>
+          <Button type="submit">
+            <FaSearch /> Pesquisar
+          </Button>
         </Search>
       </Header>
       {invoices.length === 0 ? <EmptyState /> : null}
@@ -151,7 +160,9 @@ function Home() {
           </Main>
           <Section>
             <header>
-              <Button variant="primary" onClick={handleRedirectToInvoices}><FaFilePdf /> Faturas</Button>
+              <Button variant="primary" onClick={handleRedirectToInvoices}>
+                <FaFilePdf /> Faturas
+              </Button>
             </header>
             <InvoiceTable
               headers={headers}

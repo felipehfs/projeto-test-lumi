@@ -22,15 +22,15 @@ describe("TextInput test", () => {
         onChange={onChange}
         value={initialValue}
         placeholder={placeholder}
-      />
+      />,
     );
 
     expect(screen.getByDisplayValue(initialValue)).toBeTruthy();
 
     fireEvent.change(screen.getByPlaceholderText(placeholder), {
       target: {
-        value: 'text'
-      }
+        value: "text",
+      },
     });
 
     await waitFor(() => expect(onChange).toHaveBeenCalled());

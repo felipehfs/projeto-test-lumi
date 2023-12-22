@@ -40,14 +40,14 @@ export const Section = styled.section`
 `;
 
 export const Card = styled.div`
-    margin-top: 1.6rem;
-    background-color: ${({ theme}) => theme.color.white};
-    overflow: hidden;
-    border-radius: .8rem;
-    padding: .8rem;
-    width: 40%;
+  margin-top: 1.6rem;
+  background-color: ${({ theme }) => theme.color.white};
+  overflow: hidden;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+  width: 40%;
 
-    @media screen and (max-width: ${({ theme }) => theme.mediaScreen.md}) {
-        width: 100%;
-    }
-`
+  @media screen and (max-width: ${({ theme }) => theme.mediaScreen.md}) {
+    width: 100%;
+  }
+`;
