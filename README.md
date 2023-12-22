@@ -42,3 +42,6 @@ O projeto é composto de 3 aplicações: Faturas, Scraper-lumi (API) e Scraper-l
 
 5. Acessamos a biblioteca de fatura clicando em **faturas**
 ![Página de faturas](docs/img/Faturas.png)
+
+6. Podemos fazer o download com segurança das faturas pelo período pela tabela
+![Pdfs](docs/img/Pdfs.png)
