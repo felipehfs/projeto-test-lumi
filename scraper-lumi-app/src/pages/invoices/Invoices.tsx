@@ -7,12 +7,9 @@ import InvoiceTable from "../../components/InvoiceTable/Table";
 import { TableDataItem } from "../../components/InvoiceTable/Table.styles";
 import { api } from "../../services/api";
 import { FaFilePdf } from "react-icons/fa";
+import EmptyState from "../../components/EmptyState/EmptyState";
 
-const headers = [
-  "Número do cliente",
-  "Mês referente",
-  "Ações"
-];
+const headers = ["Número do cliente", "Mês referente", "Ações"];
 function Invoices() {
   const params = useParams<{ id: string }>();
   const navigate = useNavigate();
@@ -26,7 +23,7 @@ function Invoices() {
     }
 
     if (params.id?.trim()) {
-      fetchApi()
+      fetchApi();
     }
   }, [params.id]);
 
@@ -36,8 +33,7 @@ function Invoices() {
 
   const handleDownload = async (invoiceId: string) => {
     window.open(`http://localhost:3000/invoices/${invoiceId}/export`);
-
-  }
+  };
 
   return (
     <Container>
@@ -47,25 +43,33 @@ function Invoices() {
           Voltar
         </Button>
       </Header>
-      <Section>
-        <h1>Faturas</h1>
-        <Card>
-          <InvoiceTable
-            headers={headers}
-            data={invoices}
-            renderItem={(invoice) => (
-              <tr key={invoice.id}>
-                <TableDataItem>{invoice.clientNumber}</TableDataItem>
-                <TableDataItem>{invoice.referenceDate}</TableDataItem>
-                <TableDataItem>
-                <Button variant="primary" onClick={() => handleDownload(invoice.id)}><FaFilePdf /></Button>
-
-                </TableDataItem>
-              </tr>
-            )}
-          />
-        </Card>
-      </Section>
+      {invoices.length === 0 ? (
+        <EmptyState />
+      ) : (
+        <Section>
+          <h1>Faturas</h1>
+          <Card>
+            <InvoiceTable
+              headers={headers}
+              data={invoices}
+              renderItem={(invoice) => (
+                <tr key={invoice.id}>
+                  <TableDataItem>{invoice.clientNumber}</TableDataItem>
+                  <TableDataItem>{invoice.referenceDate}</TableDataItem>
+                  <TableDataItem>
+                    <Button
+                      variant="primary"
+                      onClick={() => handleDownload(invoice.id)}
+                    >
+                      <FaFilePdf />
+                    </Button>
+                  </TableDataItem>
+                </tr>
+              )}
+            />
+          </Card>
+        </Section>
+      )}
     </Container>
   );
 }
