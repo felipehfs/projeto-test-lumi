@@ -1,0 +1,380 @@
+[
+    {
+        "city_contribution": 41.19,
+        "client_number": "7202788969",
+        "due_date": "12/07/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.90549576
+        },
+        "energy_gdi": {
+            "kwh": 771.0,
+            "price": 0.56269364
+        },
+        "energy_scee_icms": {
+            "kwh": 771.0,
+            "price": 0.59224675
+        },
+        "filename": "3001165684-06-2023.pdf",
+        "price": 109.23,
+        "reference_date": "JUN/2023",
+        "scrape_date": "2023-12-21T12:14:03.550545"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7005400387",
+        "due_date": "08/11/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95254203
+        },
+        "energy_gdi": {
+            "kwh": 583.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 583.0,
+            "price": 0.50816475
+        },
+        "filename": "3000055479-10-2023.pdf",
+        "price": 109.18,
+        "reference_date": "OUT/2023",
+        "scrape_date": "2023-12-21T12:14:03.683463"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7202187422",
+        "due_date": "11/10/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95603119
+        },
+        "energy_gdi": {
+            "kwh": 413.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 413.0,
+            "price": 0.51002616
+        },
+        "filename": "3001117181-09-2023.pdf",
+        "price": 106.57,
+        "reference_date": "SET/2023",
+        "scrape_date": "2023-12-21T12:14:03.827690"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7202187422",
+        "due_date": "10/11/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95254203
+        },
+        "energy_gdi": {
+            "kwh": 617.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 617.0,
+            "price": 0.50816475
+        },
+        "filename": "3001117181-10-2023.pdf",
+        "price": 109.88,
+        "reference_date": "OUT/2023",
+        "scrape_date": "2023-12-21T12:14:03.958708"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7005400387",
+        "due_date": "07/12/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95274072
+        },
+        "energy_gdi": {
+            "kwh": 625.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 625.0,
+            "price": 0.50827076
+        },
+        "filename": "3000055479-11-2023.pdf",
+        "price": 110.12,
+        "reference_date": "NOV/2023",
+        "scrape_date": "2023-12-21T12:14:04.092864"
+    },
+    {
+        "city_contribution": 41.19,
+        "client_number": "7202788969",
+        "due_date": "10/11/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95254203
+        },
+        "energy_gdi": {
+            "kwh": 1101.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 1101.0,
+            "price": 0.50816475
+        },
+        "filename": "3001165684-10-2023.pdf",
+        "price": 111.73,
+        "reference_date": "OUT/2023",
+        "scrape_date": "2023-12-21T12:14:04.243576"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7005400387",
+        "due_date": "04/08/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95954601
+        },
+        "energy_gdi": {
+            "kwh": 739.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 739.0,
+            "price": 0.51190126
+        },
+        "filename": "3000055479-07-2023.pdf",
+        "price": 115.54,
+        "reference_date": "JUL/2023",
+        "scrape_date": "2023-12-21T12:14:04.372571"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7202187422",
+        "due_date": "08/08/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95954601
+        },
+        "energy_gdi": {
+            "kwh": 297.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 297.0,
+            "price": 0.51190126
+        },
+        "filename": "3001117181-07-2023.pdf",
+        "price": 97.91,
+        "reference_date": "JUL/2023",
+        "scrape_date": "2023-12-21T12:14:04.505230"
+    },
+    {
+        "city_contribution": 41.19,
+        "client_number": "7202788969",
+        "due_date": "12/12/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95274072
+        },
+        "energy_gdi": {
+            "kwh": 1087.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 1087.0,
+            "price": 0.50827076
+        },
+        "filename": "3001165684-11-2023.pdf",
+        "price": 111.56,
+        "reference_date": "NOV/2023",
+        "scrape_date": "2023-12-21T12:14:04.627215"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7005400387",
+        "due_date": "11/07/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.86613683
+        },
+        "energy_gdi": {
+            "kwh": 1007.0,
+            "price": 0.61569129
+        },
+        "energy_scee_icms": {
+            "kwh": 1007.0,
+            "price": 0.64802788
+        },
+        "filename": "3000055479-06-2023.pdf",
+        "price": 125.26,
+        "reference_date": "JUN/2023",
+        "scrape_date": "2023-12-21T12:14:04.780255"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7202187422",
+        "due_date": "12/09/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.94661949
+        },
+        "energy_gdi": {
+            "kwh": 295.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 295.0,
+            "price": 0.50500518
+        },
+        "filename": "3001117181-08-2023.pdf",
+        "price": 101.95,
+        "reference_date": "AGO/2023",
+        "scrape_date": "2023-12-21T12:14:04.908751"
+    },
+    {
+        "city_contribution": 41.19,
+        "client_number": "7202788969",
+        "due_date": "12/09/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.94661949
+        },
+        "energy_gdi": {
+            "kwh": 739.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 739.0,
+            "price": 0.50500518
+        },
+        "filename": "3001165684-08-2023.pdf",
+        "price": 102.83,
+        "reference_date": "AGO/2023",
+        "scrape_date": "2023-12-21T12:14:05.040330"
+    },
+    {
+        "city_contribution": 41.19,
+        "client_number": "7202788969",
+        "due_date": "11/10/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95603119
+        },
+        "energy_gdi": {
+            "kwh": 862.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 862.0,
+            "price": 0.51002616
+        },
+        "filename": "3001165684-09-2023.pdf",
+        "price": 109.79,
+        "reference_date": "SET/2023",
+        "scrape_date": "2023-12-21T12:14:05.193276"
+    },
+    {
+        "city_contribution": 41.19,
+        "client_number": "7202788969",
+        "due_date": "08/08/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95954601
+        },
+        "energy_gdi": {
+            "kwh": 616.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 616.0,
+            "price": 0.51190126
+        },
+        "filename": "3001165684-07-2023.pdf",
+        "price": 104.28,
+        "reference_date": "JUL/2023",
+        "scrape_date": "2023-12-21T12:14:05.321396"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7202187422",
+        "due_date": "12/12/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95274072
+        },
+        "energy_gdi": {
+            "kwh": 585.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 585.0,
+            "price": 0.50827076
+        },
+        "filename": "3001117181-11-2023.pdf",
+        "price": 109.29,
+        "reference_date": "NOV/2023",
+        "scrape_date": "2023-12-21T12:14:05.443489"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7202187422",
+        "due_date": "13/07/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.89169004
+        },
+        "energy_gdi": {
+            "kwh": 347.0,
+            "price": 0.58128333
+        },
+        "energy_scee_icms": {
+            "kwh": 347.0,
+            "price": 0.61181279
+        },
+        "filename": "3001117181-06-2023.pdf",
+        "price": 104.57,
+        "reference_date": "JUN/2023",
+        "scrape_date": "2023-12-21T12:14:05.592231"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7005400387",
+        "due_date": "05/10/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.95603119
+        },
+        "energy_gdi": {
+            "kwh": 414.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 414.0,
+            "price": 0.51002616
+        },
+        "filename": "3000055479-09-2023.pdf",
+        "price": 106.59,
+        "reference_date": "SET/2023",
+        "scrape_date": "2023-12-21T12:14:05.722696"
+    },
+    {
+        "city_contribution": 49.43,
+        "client_number": "7005400387",
+        "due_date": "06/09/2023",
+        "energy_eletric": {
+            "kwh": 50.0,
+            "price": 0.94661949
+        },
+        "energy_gdi": {
+            "kwh": 370.0,
+            "price": 0.48733
+        },
+        "energy_scee_icms": {
+            "kwh": 370.0,
+            "price": 0.50500518
+        },
+        "filename": "3000055479-08-2023.pdf",
+        "price": 103.27,
+        "reference_date": "AGO/2023",
+        "scrape_date": "2023-12-21T12:14:05.854260"
+    }
+]

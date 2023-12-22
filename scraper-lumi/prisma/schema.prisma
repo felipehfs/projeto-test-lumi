@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model EnergyEletric {
+  id String @id @default(uuid())
+  kwh Float
+  price Float
+  invoice Invoice @relation(fields: [invoiceId], references: [id])
+  invoiceId  String @unique 
+}
+
+model EnergyGdi {
+  id String @id @default(uuid())
+  kwh Float
+  price Float
+  invoice Invoice @relation(fields: [invoiceId], references: [id])
+  invoiceId  String @unique 
+}
+
+model EnergySceeIcms {
+  id String @id @default(uuid())
+  kwh Float
+  price Float
+  invoice Invoice @relation(fields: [invoiceId], references: [id])
+  invoiceId  String @unique 
+}
+
+
+model Invoice {
+  id String @id @default(uuid())
+  clientNumber String
+  dueDate DateTime 
+  energyEletric EnergyEletric?
+  energyGdi EnergyGdi?
+  energySceeIcms EnergySceeIcms?
+  filename String
+  price Float
+  referenceDate String
+  scrapeDate DateTime
+  cityContribution Float
+}
